@@ -1,0 +1,25 @@
+{
+  "name": "Continue",
+  "identifier": "dev.mzzp.iina-continue",
+  "version": "0.1.1",
+  "ghRepo": "muzipin/iina-continue",
+  "ghVersion": 2,
+  "author": { "name": "MZZP" },
+  "description": "Continue what is playing in IINA on another device.",
+  "entry": "main.js",
+  "permissions": ["file-system"],
+  "sidebarTab": { "name": "Continue" },
+  "localized": {
+    "en": {
+      "name": "Continue",
+      "description": "Continue what is playing in IINA on another device.",
+      "sidebarTab": { "name": "Continue" }
+    },
+    "zh-Hans": {
+      "name": "Continue",
+      "description": "在另一个设备继续 IINA 正在播放的内容",
+      "sidebarTab": { "name": "Continue" }
+    }
+  },
+  "preferenceDefaults": { "quality": "auto" }
+}
